@@ -1,8 +1,48 @@
-# React + Vite
+# Setup Instructions
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+1. Install Amplify CLI
 
-Currently, two official plugins are available:
+```bash
+npm install -g @aws-amplify/cli
+```
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+2. Once Amplify CLI is installed, you can skip the configuration step
+
+3. When in root directory of the project, run this command to get amplify resources
+
+```bash
+amplify pull --appId dg4x4cnwdnpuv --envName dev
+```
+
+4. Install dependencies
+
+```bash
+npm install
+```
+
+6. Run the app
+
+```bash
+npm run dev
+```
+
+7. For **Codegen** run these commands
+
+```bash
+amplify add codegen
+```
+
+8. If it shows it exists run these commands, src/graphql is the directory where the schema is located
+
+```bash
+amplify update codegen
+amplify codegen
+```
+
+9. When new resources are added and deployed, run this command to get the latest changes
+
+```bash
+amplify pull
+```
+
+All Set! 🚀

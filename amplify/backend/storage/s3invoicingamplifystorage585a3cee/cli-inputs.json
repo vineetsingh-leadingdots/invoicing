@@ -1,0 +1,12 @@
+{
+  "resourceName": "s3invoicingamplifystorage585a3cee",
+  "bucketName": "invoicingamplify-storage-585a3cee",
+  "policyUUID": "d78737da",
+  "storageAccess": "auth",
+  "guestAccess": [],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ]
+}

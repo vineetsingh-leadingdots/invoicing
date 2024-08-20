@@ -1,0 +1,23 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-invoicingamplify-dev-f6c7e-authRole",
+      "UnauthRoleArn": "arn:aws:iam::517223944896:role/amplify-invoicingamplify-dev-f6c7e-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::517223944896:role/amplify-invoicingamplify-dev-f6c7e-authRole",
+      "Region": "ap-south-1",
+      "DeploymentBucketName": "amplify-invoicingamplify-dev-f6c7e-deployment",
+      "UnauthRoleName": "amplify-invoicingamplify-dev-f6c7e-unauthRole",
+      "StackName": "amplify-invoicingamplify-dev-f6c7e",
+      "StackId": "arn:aws:cloudformation:ap-south-1:517223944896:stack/amplify-invoicingamplify-dev-f6c7e/223f8a80-5a39-11ef-8891-0a2255eb9a3d",
+      "AmplifyAppId": "dg4x4cnwdnpuv"
+    },
+    "categories": {
+      "auth": {
+        "InvoicingAmplify": {}
+      },
+      "storage": {
+        "s3invoicingamplifystorage585a3cee": {}
+      }
+    }
+  }
+}
